@@ -1,0 +1,61 @@
+* {
+  font-size: 2vw;
+}
+
+body {
+  background-color: #3F72AF;
+}
+
+.head {
+	color:#93BFCF;
+}
+
+.tasks {
+  border: solid;
+  border-width: 5px;
+  color: #112D4E;
+  margin: 20px;
+  width: 37%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+input[type="checkbox"] {
+  height: 0.6em;
+  width: 10%;
+}
+
+.strikethrough {
+  text-decoration: line-through; /* Strike-through effect */
+  color: #DBE2EF; /* Grey color for strike-through text */
+}
+
+.inputs {
+  padding: 10px;
+  margin: 25px 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.inputs[type="text"] {
+  width: 400px; /* Adjust width as needed */
+  height: 2vw;
+  font-size: 2vw;
+}
+
+/* Button */
+.inputs[type="submit"] {
+  background-color: #F9F7F7; 
+  color: #112D4E;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 2vw;
+  height: 3.3vw;
+}
+
+.inputs[type="submit"]:hover {
+  background-color: #DBE2EF; 
+}
